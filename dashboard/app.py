@@ -41,7 +41,7 @@ with tab1:
     st.info("Analysis of vehicle return delays on Getaround.")
 
     # Load and filter delay data
-    df = pd.read_excel("data/get_around_delay_analysis.xlsx")
+    df = pd.read_csv("data/get_around_delay_analysis.csv")
     df = df[df["state"] == "ended"]
     df = df.dropna(
         subset=[
