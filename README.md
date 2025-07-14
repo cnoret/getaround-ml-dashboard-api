@@ -62,7 +62,7 @@ Visit: [http://localhost:8501](http://localhost:8501)
 docker compose up --build
 ```
 - **Dashboard:** [http://localhost:8501](http://localhost:8501)
-- **Prediction API:** [http://localhost:8001/docs](http://localhost:8001/docs)
+- **Prediction API:** [http://localhost:8001](http://localhost:8001)
 - **MLflow UI:** [http://localhost:5000](http://localhost:5000)
 
 ### 2. API internal communication
