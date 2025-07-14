@@ -107,8 +107,4 @@ http://api:8001/predict
 
 ---
 
-## 👤 Author
-
-Made with ❤️ by Christophe NORET
-
 *Feel free to contact me for any questions or contributions!*
