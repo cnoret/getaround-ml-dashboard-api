@@ -5,8 +5,8 @@
 
 ## 🚀 Deployed Project
 
-- **Streamlit Dashboard:** [Hugging Face Space – Dashboard](https://huggingface.co/spaces/YOUR-ORG/YOUR-SPACE/proxy/8501/)
-- **Prediction API (FastAPI):** [Hugging Face Space – API Docs](https://huggingface.co/spaces/YOUR-ORG/YOUR-SPACE/proxy/8000/docs)
+- **Streamlit Dashboard:** [Hugging Face Space – Dashboard](https://cnoret-getaround-dashboard.hf.space/)
+- **Prediction API (FastAPI):** [Hugging Face Space – API](https://cnoret-getaround-API.hf.space/)
 
 
 ---
