@@ -171,7 +171,7 @@ with tab1:
         "filtered_delays.csv",
     )
 
-# --------- TAB 2: PRICING ANALYSIS ---------
+# Tab 2: Pricing Analysis
 with tab2:
     st.header("💰 Pricing Analysis")
     st.info("Distribution of vehicle characteristics and prices.")
@@ -233,7 +233,7 @@ with tab2:
 
     st.caption("Source: get_around_pricing_project.csv")
 
-# --------- TAB 3: PRICE PREDICTION ---------
+# Tab 3: Price Prediction
 with tab3:
     st.header("💸 Price Prediction")
     st.info("Fill out the form to get a rental price prediction for a car.")
