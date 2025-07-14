@@ -1,0 +1,25 @@
+# Base image
+FROM python:3.10-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+COPY ./ml/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy your training script and data
+COPY ml/ ./ml/
+COPY data/ ./data/
+
+# Expose MLflow UI port (optional)
+EXPOSE 5000
+
+# Run the training script
+CMD ["python", "ml/model_training.py"]
