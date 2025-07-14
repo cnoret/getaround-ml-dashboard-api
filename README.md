@@ -24,7 +24,7 @@ This repository provides:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR-ORG/getaround-ml-dashboard-api.git
+git clone https://github.com/cnoret/getaround-ml-dashboard-api.git
 cd getaround-ml-dashboard-api
 ```
 
